@@ -3,11 +3,10 @@
 #include <stdio.h>
 int main()
 {
-float c;
-float f;
-  printf("请输入摄氏度:\n")
+float c,f;
+  printf("请输入摄氏度:\n");
 scanf("%f",&c);
-f=c*9/5.0+32;
-printf("华氏温度为%.1f\n",f);
+f=c*9.0/5+32;
+printf("华氏温度=%.1f\n",f);
 return 0;
 }

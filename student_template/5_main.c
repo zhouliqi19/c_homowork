@@ -1,12 +1,12 @@
 //202610125119
 //周丽淇
 #include <stdio.h>
-int main(void)
+int main()
 {
     float a,b;
     char op;
     printf("请输入两个数字和运算符\n");
-    scanf("%f %c %f",&a,&op,&b);
+    scanf("%f %f %c",&a,&op,&b);
     if (op=='+')
     {
         printf("%.2f",a+b);

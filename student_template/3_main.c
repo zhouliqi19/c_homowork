@@ -4,7 +4,7 @@
 int main()
 {
     float a,b,c;
-    printf("请输入三个实数");
+    printf("请输入三个实数\n");
     scanf("%f %f %f",&a,&b,&c);
     if (a+b>c&&a+c>b&&b+c>a)
     {

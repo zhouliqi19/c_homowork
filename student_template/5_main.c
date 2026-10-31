@@ -5,8 +5,8 @@ int main()
 {
     float a,b;
     char op;
-    printf("请输入两个数字和运算符\n");
-    scanf("%f %f %c",&a,&op,&b);
+    printf("请输入数字 运算符 数字\n");
+    scanf("%f %c %f",&a,&op,&b);
     if (op=='+')
     {
         printf("%.2f",a+b);

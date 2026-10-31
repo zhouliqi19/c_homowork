@@ -4,7 +4,7 @@
 int main()
 {
 float c;
-float c;
+float f;
   printf("请输入摄氏度:\n");
 scanf("%f",&c);
 f=c*9.0/5.0+32;

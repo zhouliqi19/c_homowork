@@ -5,7 +5,7 @@ int main()
 {
     float a,b;
     char op;
-    printf("请输入数字 运算符 数字\n");
+    printf("请依次输入数字，运算符，数字\n");
     scanf("%f %c %f",&a,&op,&b);
     if (op=='+')
     {

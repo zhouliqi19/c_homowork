@@ -26,14 +26,14 @@ int main()
         {
             printf("错误，除数不能为零\n");
         }
-        else if(b !=0)
+        else
         {
-            printf("%.2f",a/b);
+            printf("%.2f\n",a/b);
         }
     }
     else
     {
-        printf("错误，未知的运算符")
+        printf("错误，未知的运算符");
     return 0;
 }
 }

@@ -8,11 +8,11 @@ int main()
     scanf("%f %f %f",&a,&b,&c);
     if (a+b>c&&a+c>b&&b+c>a)
     {
-        printf("abc可以构成三角形");
+    printf("abc可以构成三角形\n");
     }
     else
     {
-    printf("abc不能构成三角形");
+    printf("abc不能构成三角形\n");
     }
     return 0;
 }

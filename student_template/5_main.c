@@ -3,7 +3,8 @@
 #include <stdio.h>
 int main()
 {
-    float a,b;
+    float a;
+    float b;
     char op;
     printf("请依次输入数字，运算符，数字\n");
     scanf("%f %c %f",&a,&op,&b);
@@ -25,7 +26,7 @@ int main()
         {
             printf("错误，除数不能为零\n");
         }
-        else
+        else if(b !=0)
         {
             printf("%.2f",a/b);
         }
@@ -34,4 +35,5 @@ int main()
     {
         printf("错误，未知的运算符")
     return 0;
+}
 }
